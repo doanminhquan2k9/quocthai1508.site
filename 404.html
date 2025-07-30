@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 Không Tìm Thấy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #0f0f0f;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    h1 {
+      font-size: 8rem;
+      color: #ff3b3f;
+      animation: float 2s infinite ease-in-out;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0px); }
+    }
+    h2 {
+      font-size: 2rem;
+      margin-top: -20px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin: 20px 0;
+      color: #bbb;
+    }
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 24px;
+      background-color: #ff3b3f;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    a:hover {
+      background-color: #e53035;
+    }
+    .glow {
+      text-shadow: 0 0 10px #ff3b3f, 0 0 20px #ff3b3f;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glow">404</h1>
+  <h2>Không tìm thấy trang</h2>
+  <p>Trang bạn đang tìm không tồn tại hoặc đã bị xóa.<br>Vui lòng kiểm tra lại đường dẫn hoặc quay về trang chủ.</p>
+  <a href="/">🔙 Về trang chủ</a>
+</body>
+</html>
